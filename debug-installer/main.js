@@ -1,1 +1,4 @@
-console.log('Hello installer world!');
+
+import DebugApp from './debug-app'
+
+window.debugApp = new DebugApp()
